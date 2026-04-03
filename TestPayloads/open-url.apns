@@ -1,0 +1,26 @@
+{
+    "Simulator Target Bundle": "co.acoustic.mobile.connect.new.demo.external.ConnectPushSampleApp",
+    "aps": {
+        "alert": {
+            "title": "New offer",
+            "body": "Tap to view or use the action buttons below."
+        },
+        "category": "ACTIONABLE_NOTIFICATION",
+        "sound": "default",
+        "badge": 1
+    },
+    "metadata": {
+        "contactId": "contact-001",
+        "sendJobId": "job-002",
+        "joId": "jo-001",
+        "joStepId": "step-002",
+        "testSend": true
+    },
+    "data": {
+        "action": {
+            "type": "OPEN_URL",
+            "url": "https://acoustic.co",
+            "label": "View offer"
+        }
+    }
+}

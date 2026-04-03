@@ -1,0 +1,24 @@
+{
+    "Simulator Target Bundle": "co.acoustic.mobile.connect.new.demo.external.ConnectPushSampleApp",
+    "aps": {
+        "alert": {
+            "title": "Welcome back",
+            "body": "Tap to open the app."
+        },
+        "sound": "default",
+        "badge": 1
+    },
+    "metadata": {
+        "contactId": "contact-001",
+        "sendJobId": "job-001",
+        "joId": "jo-001",
+        "joStepId": "step-001",
+        "testSend": true
+    },
+    "data": {
+        "action": {
+            "type": "OPEN_APP",
+            "label": "Open app"
+        }
+    }
+}

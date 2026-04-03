@@ -1,0 +1,27 @@
+{
+    "Simulator Target Bundle": "co.acoustic.mobile.connect.new.demo.external.ConnectPushSampleApp",
+    "aps": {
+        "alert": {
+            "title": "Call us",
+            "body": "Tap to dial or use the action buttons below."
+        },
+        "category": "ACTIONABLE_NOTIFICATION",
+        "sound": "default",
+        "badge": 1
+    },
+    "metadata": {
+        "contactId": "contact-001",
+        "sendJobId": "job-003",
+        "joId": "jo-001",
+        "joStepId": "step-003",
+        "testSend": true
+    },
+    "data": {
+        "action": {
+            "type": "OPEN_DIALER",
+            "phoneNumber": "5551234567",
+            "phoneNumberPrefix": "+1",
+            "label": "Call support"
+        }
+    }
+}

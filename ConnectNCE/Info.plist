@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSExtension</key>
+	<dict>
+		<key>NSExtensionAttributes</key>
+		<dict>
+			<key>UNNotificationExtensionCategory</key>
+			<array>
+				<string>ACOUSTIC_RICH_NOTIFICATION</string>
+			</array>
+			<!--
+				Keep the system-default title/body banner visible above the NCE view.
+				The NCE only appends the expansion content (image and/or expandedBody) below.
+			-->
+			<key>UNNotificationExtensionDefaultContentHidden</key>
+			<false/>
+			<!--
+				Initial height-to-width ratio used before the view calls preferredContentSize.
+				The view controller updates this dynamically once the image dimensions are known.
+			-->
+			<key>UNNotificationExtensionInitialContentSizeRatio</key>
+			<real>1</real>
+		</dict>
+		<key>NSExtensionPointIdentifier</key>
+		<string>com.apple.usernotifications.content-extension</string>
+		<key>NSExtensionPrincipalClass</key>
+		<string>$(PRODUCT_MODULE_NAME).NotificationViewController</string>
+	</dict>
+</dict>
+</plist>

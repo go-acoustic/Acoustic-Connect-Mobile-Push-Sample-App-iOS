@@ -1,0 +1,23 @@
+{
+    "Simulator Target Bundle": "co.acoustic.mobile.connect.new.demo.external.ConnectPushSampleApp",
+    "aps": {
+        "alert": {
+            "title": "Weekend sale",
+            "body": "Up to 40% off selected items. Tap to browse the full collection."
+        },
+        "mutable-content": 1,
+        "sound": "default",
+        "badge": 1
+    },
+    "data": {
+        "notification": {
+            "expandedImage": "https://httpbin.org/image/jpeg",
+            "expandedBody": "Discover our full range of discounted products. Limited time only."
+        },
+        "action": {
+            "type": "OPEN_URL",
+            "url": "https://acoustic.co",
+            "label": "Browse sale"
+        }
+    }
+}
